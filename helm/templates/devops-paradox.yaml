@@ -4,7 +4,7 @@ metadata:
   name: devops-paradox
   namespace: argocd
   finalizers:
-  - resources-finalizer.argocd.argoproj.io
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: production
   source:
